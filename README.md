@@ -1,4 +1,4 @@
-
+![Logo](images/meep_header.png)
 # Meep
 
 Meep is a configurable alarm program based around a Raspberry Pi setup with existing sensors.  If you have a house wired for an alarm system, this makes a very cost-effective solution without having to subscribe to a service.
@@ -45,6 +45,8 @@ The database name is 'alarm'.
 ## Logging In
 The PIN configured in *alarmConfig.php* is just one piece of the authentication.  Because this alarm web console might be exposed outside of your home network, there is a second factor of authentication using *fingerprint.js* to create a device fingerprint.  This is stored in the database and verified along with the PIN when trying to log in.  *alarmConfig.php* also has a variable to define the time that a device fingerprint is valid.  After that period is over, the device must re-provision itself.
 
+![Login](images/Meep_login.PNG)
+
 For additional layers of security, I recommend ensuring a signed SSL certificate, and configuring apache to use TLS v1.2 (or higher), *especially* if this service is open on the web.  If it is contained within a LAN, a solid VPN (such as [OpenVPN](https://openvpn.net/)) is a secure option for remote access.
 
 ### Registering Device Fingerprint
@@ -61,10 +63,20 @@ Turn on sms notifications for door and/or motion sensor events.
 #### *Siren*
 Turn on siren activation for door and/or motion sensor events. (Still in development)
 
+![Config](images/Meep_config.PNG)
 
 ### Status
 Shows all sensors (that have been triggered in the database) with current status (red for open/triggered, green for closed/inactive).
+
+![Status](images/Meep_status.PNG)
+
 ### History
 Shows the last 50 (configurable in *alarmConfig.php*) events, grouped by sensor name.
+
+![History](images/Meep_history.PNG)
+
 ### Control
 Allows triggering of configured (in *alarmConfig.php*) relays.  An example of this is garage door control.
+
+![Control](images/Meep_control.PNG)
+
