@@ -1,0 +1,54 @@
+body {
+    font-family: helvetica;
+}    
+
+.table_fields {
+    background: #fff;
+    border: 1px solid #aca1a9;
+    border-bottom: 0;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.table_fields .table_row,
+.table_fields .table_pin {
+    background: #f1f3f6;
+}
+
+.table_fields .table_row td{
+    font-size: 40px;
+    width: 33%;
+    text-transform: uppercase;
+    line-height: 256px;
+    -webkit-transform: translateZ(0);
+}
+
+.table_fields .table_pin td {
+    font-size: 40px;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 96px;
+    -webkit-transform: translateZ(0);
+}
+
+.table_row td:active {
+    background: #e0e0e0;
+    -webkit-transform: translateZ(0);
+}
+
+.table_fields td,
+.table_pin td {
+    text-align: center;
+    border-bottom: 1px solid #aca1a9;
+    border-right: 1px solid #aca1a9;
+    font-size: 11px;
+    color: #666;
+    white-space:nowrap;
+    -webkit-transform: translateZ(0);
+}
+
+input#PINbox,
+input#fingerprint
+{
+    display:none;
+}

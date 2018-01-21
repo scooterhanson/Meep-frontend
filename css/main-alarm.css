@@ -1,0 +1,49 @@
+div.wrap {
+    height: 100px;
+    position: relative;
+}
+
+.wrap img {
+     position: absolute;
+    bottom: 0;
+}
+
+.wrap img:nth-of-type(1) {
+    left: 0;
+}
+
+.wrap img:nth-of-type(2) {
+    right: 0;
+    top: 0;
+}
+.ui-page-theme-b .ui-btn.ui-btn-active, html .ui-bar-b .ui-btn.ui-btn-active, html .ui-body-b .ui-btn.ui-btn-active, html body .ui-group-theme-b .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-b.ui-btn-active, .ui-page-theme-b .ui-checkbox-on:after, html .ui-bar-b .ui-checkbox-on:after, html .ui-body-b .ui-checkbox-on:after, html body .ui-group-theme-b .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-b:after, .ui-page-theme-b .ui-flipswitch-active, html .ui-bar-b .ui-flipswitch-active, html .ui-body-b .ui-flipswitch-active, html body .ui-group-theme-b .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active, .ui-page-theme-b .ui-slider-track .ui-btn-active, html .ui-bar-b .ui-slider-track .ui-btn-active, html .ui-body-b .ui-slider-track .ui-btn-active, html body .ui-group-theme-b .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-b .ui-btn-active {
+    background-color: #38c;
+    border-color: #38c;
+}
+
+.ui-navbar li .ui-btn {
+    font-size: 14px;
+    font-weight: 700
+}
+
+h2 {
+    color: #fc8023;
+    background-color: transparent;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.6em;
+    padding-bottom: .2em;
+    margin: 0 0 .7375em;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 2px black;
+
+    /* color | offset-x | offset-y | blur-radius */
+    text-shadow: #aaa -1px 1px 3px;
+}
+
+div.flip-section {
+    border-bottom: 1px solid #dfdfdf;;
+}
+
+.ui-tabs  {
+    padding: 2em 0em; !important
+}
