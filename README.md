@@ -11,14 +11,11 @@ For the most part, this should be a plug and play installation by dropping this 
 
 ### Dependencies
 
-#### Meep-backend
-[Meep-backend](https://github.com/scooterhanson/Meep-backend) is required for this to really be useful.  Technically, the *control* tab can still be used when configured against the Pi with relay switched wired to specified GPIO pins.
+- [Meep-backend](https://github.com/scooterhanson/Meep-backend) is required for this to really be useful.  Technically, the *control* tab can still be used when configured against the Pi with relay switched wired to specified GPIO pins.
+- Apache2 (or lighttpd, or whatever else)
+- [PiPHP](https://github.com/PiPHP/GPIO).
+- [PHP Mongo Driver](https://docs.mongodb.com/ecosystem/drivers/php/)
 
-#### Apache2
-Not much to say here...
-
-#### PiPHP
-Installed using Composer.  See [https://github.com/PiPHP/GPIO](https://github.com/PiPHP/GPIO).
 
 ## Configuration
 *alarmConfig.php* hosts all of the configurations needed for Meep-frontend.
