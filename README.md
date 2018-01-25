@@ -77,3 +77,5 @@ Allows triggering of configured (in *alarmConfig.php*) relays.  An example of th
 
 ![Control](images/Meep_control.PNG)
 
+
+LEGAL DISCLAIMER: Beaker is a registered trademark of The Muppets Studio, LLC. All Rights Reserved. © 2007 The Muppets Studio, LLC.
