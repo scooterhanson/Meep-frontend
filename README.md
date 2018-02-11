@@ -1,7 +1,7 @@
 ![Logo](images/meep_header.png)
 # Meep
 
-Meep is a configurable alarm program based around a Raspberry Pi setup with existing sensors.  If you have a house wired for an alarm system, this makes a very cost-effective solution without having to subscribe to a service.
+Meep is a configurable alarm program based around a Raspberry Pi that can be set up with existing sensors (door/window/motion/etc.).  If you have a house wired for an alarm system, this makes a very cost-effective solution without having to subscribe to a service.
 
 This is the php front-end of the alarm system.  Check out [Meep-backend](https://github.com/scooterhanson/Meep-backend)  for a python infrastructure, running on a Raspberry Pi with GPIO pins connected to door, window, and motion sensors.
 
